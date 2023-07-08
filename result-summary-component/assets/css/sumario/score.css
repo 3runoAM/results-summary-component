@@ -1,0 +1,24 @@
+.score-propriedade {
+    color: #303B59;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 0.82rem;
+    margin-left: 4.81rem;
+}
+
+.score-propriedade.reaction, .score-propriedade.memory {
+    margin-left: 4rem;
+}
+
+span {
+    color: hsla(220, 39%, 32%, 75%);
+}
+
+@media screen and (max-width: 376px){
+    .score-propriedade {
+        margin-left: 6.83rem;
+    }
+    .score-propriedade.reaction, .score-propriedade.memory {
+        margin-left: 5.77rem;
+    }
+}

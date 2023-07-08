@@ -1,0 +1,19 @@
+.componente {
+    width: 41.9375rem;
+    height: 27.9375rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: var(--branco);
+    border-radius: 1.875rem 1.875rem 1.875rem 1.875rem;
+    box-shadow: 10px 25px 50px var(--lavanda-claro-trans);
+    font-family: var(--hanken-gortesk);
+}
+
+@media screen and (max-width: 376px) {
+    .componente {
+        flex-direction: column;
+        border-radius: unset;
+        box-shadow: unset;
+    }
+}

@@ -1,0 +1,42 @@
+.icon {
+    width: 1.4375rem;
+    height: 1.125rem;
+    padding: 0;
+    margin: 0;
+}
+
+.icon.reaction,.icon.memory, .icon.verbal, .icon.visual {
+    width: 1.4375rem;
+    height: 1.125rem;
+    align-self: center;
+    background-repeat: no-repeat;
+    margin-left: 0.88rem;
+}
+
+.icon.reaction {
+    background-image: url("../../images/icon-reaction.svg");
+
+}
+
+.icon.memory {
+    background-image: url("../../images/icon-memory.svg");
+    width: 1.4375rem;
+    height: 1.3125rem;
+}
+
+.icon.verbal {
+    background-image: url("../../images/icon-verbal.svg");
+    width: 1.4375rem;
+    height: 1.3125rem;
+}
+
+.icon.visual {
+    background-image: url("../../images/icon-visual.svg");
+}
+
+
+@media screen and (max-width: 376px){
+    .icon.reaction,.icon.memory, .icon.verbal, .icon.visual {
+        margin: 0.90rem 0.67rem 0.90rem 1.5rem;
+    }
+}

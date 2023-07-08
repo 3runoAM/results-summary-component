@@ -1,0 +1,27 @@
+.botao {
+    width: 16.14594rem;
+    height: 3.06788rem;
+    border-radius: 1.875rem;
+    align-self: center;
+    background: var(--azul-cinza-escuro);
+    color: var(--branco);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2.1899999999999995rem;;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.botao:focus, .botao:hover {
+    border: none;
+    background: linear-gradient(360deg, var(--gradiante-fundo-azul) 0%, var(--gradiante-fundo-roxo) 100%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 376px) {
+    .botao {
+        width: 19rem;
+        height: 3.4375rem;
+        margin-bottom: 0;
+    }
+}

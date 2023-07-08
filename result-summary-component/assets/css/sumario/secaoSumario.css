@@ -1,0 +1,25 @@
+/*Seção sumário*/
+.sumario { /*Container*/
+    width: 23.06563rem;
+    height: 27.9375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titulo-sumario {
+    width: 6.08094rem;
+    height: 1.69713rem;
+    margin-left: 2.56rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1.3125rem;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 376px) {
+    .titulo-sumario {
+        margin: 1.44rem 0 1.44rem 1.95rem;
+    }
+}

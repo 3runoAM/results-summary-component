@@ -1,0 +1,84 @@
+.propriedades-container { /*Container das propriedades*/
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 16.125rem;
+    height: 15.0625rem;
+}
+
+
+
+.propriedade-container { /*Container individual de cada propriedade*/
+    display: flex;
+    flex-direction: row;
+    width: 16.14594rem;
+    height: 3.06788rem;
+}
+
+
+.propriedade-container.reaction {
+    border-radius: 0.5rem;
+    background: rgba(255, 87, 87, 0.08);
+    margin-top: 0;
+    margin-bottom: 0.63rem;
+
+}
+
+
+.propriedade-container.memory {
+    border-radius: 0.5rem;
+    background: rgba(255, 176, 31, 0.08);
+    margin-top: 0.63rem;
+    margin-bottom: 0.63rem;
+}
+
+.propriedade-container.verbal {
+    border-radius: 0.5rem;
+    background: rgba(0, 189, 145, 0.08);
+    margin-top: 0.63rem;
+    margin-bottom: 0.63rem;
+}
+
+.propriedade-container.visual {
+    border-radius: 0.5rem;
+    background: rgba(17, 37, 212, 0.08);
+    margin-top: 0.63rem;
+    margin-bottom: 0;
+}
+
+.reaction, .memory, .verbal, .visual {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-top: 0.81rem;
+    margin-bottom: 0.82rem;
+    margin-left: 0.19rem;
+}
+
+.reaction{
+    color: var(--vermelho-claro)
+}
+.memory{
+    color: var(--amaraelo-alaranjado);
+}
+.verbal {
+    color: var(--verde-turquesa);
+}
+.visual {
+    color: var(--azul-cobalto);
+}
+
+@media screen and (max-width: 736px){
+    .propriedades-container { /*Container das propriedades*/
+        width: 19.25rem;
+        height: 15.0625rem;
+        align-items: center;
+    }
+
+    .propriedade-container.reaction, .propriedade-container.memory,
+    .propriedade-container.verbal, .propriedade-container.visual {
+        width: 19.4375rem;
+        height: 3.0625rem;
+        border-radius: 0.5rem;
+        margin: 0 0 0.94rem 0;
+    }
+}
